@@ -38,7 +38,9 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 }
 ```
 
-## 💰 Pricing — Two Payment Methods, Your Choice
+## 💰 Pricing
+
+**Start free — 10 requests/day, no signup, no card.** Upgrade only if it earns a place in your workflow.
 
 | Plan | Price | Pay with |
 |------|-------|----------|
