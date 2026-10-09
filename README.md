@@ -38,12 +38,27 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 }
 ```
 
-## 💰 Pricing
+## 💰 Pricing — Two Payment Methods, Your Choice
 
-- **Free tier**: 10 requests/day — no signup
-- **Pro ($7.99)**: unlimited VideoForge access — [Get Pro key](https://amygraphics.gumroad.com/l/mcp-pro)
-- **All-Access ($14.99 lifetime)**: unlimited access to all 44+ MCP servers in the suite
-- **Crypto**: pay with Solana USDC — see `/verify-solana` endpoint
+| Plan | Price | Pay with |
+|------|-------|----------|
+| **Free** | $0 | 10 requests/day — no signup needed |
+| **Pro** (VideoForge only) | **$7.99** lifetime | 💳 Gumroad **or** 🪙 Solana USDC |
+| **All-Access Suite** (all 44+ servers) | **$14.99** lifetime | 💳 Gumroad **or** 🪙 Solana USDC |
+
+### 💳 Option 1 — Gumroad (PayPal & Credit Cards)
+
+👉 **[amygraphics.gumroad.com/l/mcp-pro](https://amygraphics.gumroad.com/l/mcp-pro)** — select *Single MCP Server* ($7.99) or *All-Access Lifetime Suite* ($14.99). Instant license key delivery.
+
+### 🪙 Option 2 — Solana USDC (instant, no account needed)
+
+Send **$7.99 USDC** (single) or **$14.99 USDC** (all-access) to:
+
+```
+8sDLX3okSV974wdjdeKhN9uWLZDr45DeGCJ28zgTLEdJ
+```
+
+Then POST your transaction signature to the `/verify-solana` endpoint to activate your lifetime license instantly.
 
 ## 🌐 More Servers
 
