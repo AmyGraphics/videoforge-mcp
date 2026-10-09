@@ -1,0 +1,35 @@
+{
+  "name": "videoforge-mcp",
+  "version": "1.0.0",
+  "description": "VideoForge - Autonomous Video Engineering, FFmpeg Pipelines, Adaptive Streaming (HLS/DASH) & Video Delivery Optimization Engine MCP. Architects complete video infrastructure: build-vs-buy decisions, codec ladders (H.264/HEVC/AV1), production FFmpeg commands, hls.js/Shaka player integration, ABR tuning, DRM strategy, CDN economics, VMAF quality control, and WCAG video accessibility with VideoObject SEO.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "video",
+    "ffmpeg",
+    "hls",
+    "dash",
+    "streaming",
+    "adaptive-bitrate",
+    "av1",
+    "h264",
+    "transcoding",
+    "hls-js",
+    "shaka-player",
+    "video-js",
+    "drm",
+    "vmaf",
+    "captions",
+    "webvtt",
+    "video-seo",
+    "cursor",
+    "claude"
+  ],
+  "homepage": "https://mcp-hub.agentweb-hub.workers.dev/mcp/videoforge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmyGraphics/videoforge-mcp"
+  },
+  "author": "AmyGraphics",
+  "license": "MIT"
+}
