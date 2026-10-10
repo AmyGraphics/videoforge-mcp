@@ -20,11 +20,11 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 
 | Tool | What it does |
 |------|-------------|
-| `autonomous_video_pipeline_architect` | Full video infrastructure blueprint: build-vs-buy matrix (Mux / Cloudflare Stream vs self-hosted FFmpeg + R2/CDN), codec ladder strategy (H.264 / HEVC / AV1 economics), upload→transcode→package→deliver architecture, storage & CDN cost modeling, staged roadmap |
-| `generate_ffmpeg_pipelines` | Production FFmpeg commands explained flag by flag: web-optimized MP4 (CRF + faststart), full adaptive HLS ladders with `var_stream_map`, thumbnail sprites & hover previews, EBU R128 loudness normalization, social media variants (9:16, 1:1, burned-in captions) |
-| `implement_adaptive_streaming` | HLS / DASH / CMAF packaging decisions, production player code (hls.js error recovery, Video.js, Shaka, native Safari), ABR tuning that avoids rebuffering, DRM reality check (Widevine/FairPlay/PlayReady), device testing matrix |
-| `optimize_video_delivery` | Startup time & LCP playbooks (facade pattern, preload discipline), bandwidth cost reduction (AV1 savings tables, ladder pruning), VMAF-driven quality-per-bit, CDN caching rules, QoE measurement plan |
-| `prepare_video_accessibility_seo` | WCAG media requirements (captions 1.2.2, audio description 1.2.5, player keyboard ops), caption production economics (ASR + human review), VideoObject JSON-LD with key moments, video sitemaps, publishing checklist |
+| `video.architect` | Full video infrastructure blueprint: build-vs-buy matrix (Mux / Cloudflare Stream vs self-hosted FFmpeg + R2/CDN), codec ladder strategy (H.264 / HEVC / AV1 economics), upload→transcode→package→deliver architecture, storage & CDN cost modeling, staged roadmap |
+| `video.ffmpeg_pipeline` | Production FFmpeg commands explained flag by flag: web-optimized MP4 (CRF + faststart), full adaptive HLS ladders with `var_stream_map`, thumbnail sprites & hover previews, EBU R128 loudness normalization, social media variants (9:16, 1:1, burned-in captions) |
+| `video.adaptive_streaming` | HLS / DASH / CMAF packaging decisions, production player code (hls.js error recovery, Video.js, Shaka, native Safari), ABR tuning that avoids rebuffering, DRM reality check (Widevine/FairPlay/PlayReady), device testing matrix |
+| `video.delivery` | Startup time & LCP playbooks (facade pattern, preload discipline), bandwidth cost reduction (AV1 savings tables, ladder pruning), VMAF-driven quality-per-bit, CDN caching rules, QoE measurement plan |
+| `video.accessibility_seo` | WCAG media requirements (captions 1.2.2, audio description 1.2.5, player keyboard ops), caption production economics (ASR + human review), VideoObject JSON-LD with key moments, video sitemaps, publishing checklist |
 
 ## ⚡ Quick Start (Cursor / Claude Code)
 
@@ -38,7 +38,7 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 }
 ```
 
-## 🔴 NEW in v1.1 — Live Tool: `analyze_youtube_video_live`
+## 🔴 NEW in v1.1 — Live Tool: `video.analyze_youtube_live`
 
 Fetches REAL metadata for any YouTube video via the keyless official oEmbed endpoint: exact title, channel, thumbnail, title SEO read, and a ready-to-paste responsive embed package.
 
