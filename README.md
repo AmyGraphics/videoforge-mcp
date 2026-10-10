@@ -38,6 +38,12 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 }
 ```
 
+## 🔴 NEW in v1.1 — Live Tool: `analyze_youtube_video_live`
+
+Fetches REAL metadata for any YouTube video via the keyless official oEmbed endpoint: exact title, channel, thumbnail, title SEO read, and a ready-to-paste responsive embed package.
+
+No API key needed — works out of the box.
+
 ## 💰 Pricing
 
 **Start free — 10 requests/day, no signup, no card.** Upgrade only if it earns a place in your workflow.
